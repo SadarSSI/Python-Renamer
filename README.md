@@ -37,3 +37,11 @@ after the script:
 - / my_folder
 - / my_folder / file1.xxx
 - / my_folder / file2.xxx
+
+Il est aussi possible de move vers le répertoire parent si un dossier ne contient qu'un seul fichier (voir les paramètres)
+
+Par défaut le script log les informations des fichiers et dossiers renommés
+
+Tout fonctionne sous linux, si vous le voulez avec windows changer     simplement le path du fichier de log :
+
+- LOG_FILE = "/var/log/rname.log"
