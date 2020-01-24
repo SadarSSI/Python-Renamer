@@ -38,10 +38,8 @@ after the script:
 - / my_folder / file1.xxx
 - / my_folder / file2.xxx
 
-Il est aussi possible de move vers le répertoire parent si un dossier ne contient qu'un seul fichier (voir les paramètres)
+It is also possible to move to the parent directory if a folder contains only one file (see parameters)
 
-Par défaut le script log les informations des fichiers et dossiers renommés
-
-Tout fonctionne sous linux, si vous le voulez avec windows changer     simplement le path du fichier de log :
+By default the script log the information of renamed files and folders. Everything works under linux, if you want it with windows simply change the path of the log file:
 
 - LOG_FILE = "/var/log/rname.log"
