@@ -1,0 +1,54 @@
+Qbitsrv:
+  address : "http://myserver:8080"
+  user    : myuser
+  pwd     : ùypasswd
+
+DeleteFiles:
+  - 'INFO A LIRE !!!.txt' 
+  - 'site.com.url'
+  - 'site officiel.url'
+
+RmoveStrings:
+  - "[ site.com ]"
+  - AC3-VENUE
+  - AMZN.WEB-DL
+  - BluRay.DTS
+  - BluRay.x264.AC3-EXTREME
+  - BluRay.x264-UTT
+  - BluRay.x264-VENUE
+  - FASTSUB.VOSTFR
+  - FRENCH.1080p
+  - FRENCH.720p
+  - FRENCH.WEB
+  - FRENCH.WEBRip
+  - FRENCH.BDRiP
+  - EXTREME.x264
+  - HDTV.XviD-EXTREME
+  - REPACK.VOSTFR
+  - SUBFRENCH.HDTV
+  - SUBFRENCH.WEBRiP
+  - WEB.VOSTFR.EXTREME
+  - VOSTFR.EXTREME
+  - VOSTFR.HDTV
+  - WEB.EXTREME
+  - WEB.FRENCH
+  - WEB.H264-EXTREME
+  - WEB.H264-PREUMS
+  - WEB.XviD-EXTREME
+  - WEBRip
+  - XviD-EXTREME
+  - XviD.EXTREME
+  - XViD-STVFRV
+  - x264-UKDHD
+  - x264-UTT
+  - x264-VENUE
+
+RmoveSigns:
+  # - "-"
+  # - "_"
+  - "{"
+  - "}"
+  - "^"
+
+ChangeStrings:
+  - "',."
